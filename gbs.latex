@@ -857,7 +857,7 @@ $else$
   \fancyhead{}
   \fancyfoot{}
   
-  \lfoot[$if(footer-right)$$footer-right$$else$\thepage$endif$]{$if(footer-left)$$footer-left$$else$$for(author)${\textcopyright 2021 \textbf{gbs}sg.ch} {{\color{SpringGreen}|}} \textbf{$title$} {{\color{SpringGreen}|}} \textbf{$subtitle$} $sep$, $endfor$$endif$}
+  \lfoot[$if(footer-right)$$footer-right$$else$\thepage$endif$]{$if(footer-left)$$footer-left$$else$$for(author)${\textcopyright {$date$} \textbf{gbs}sg.ch} {{\color{SpringGreen}|}} \textbf{$title$} {{\color{SpringGreen}|}} \textbf{$subtitle$} $sep$, $endfor$$endif$}
   \cfoot[$if(footer-center)$$footer-center$$else$$endif$]{$if(footer-center)$$footer-center$$else$$endif$}
   \rfoot[$if(footer-left)$$footer-left$$else$$for(author)$$author$$sep$, $endfor$$endif$]{$if(footer-right)$$footer-right$$else$\thepage$endif$}
   \renewcommand{\headrulewidth}{0pt}
