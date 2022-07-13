@@ -13,7 +13,8 @@
     -o mydoc.pdf \
 --toc \
 -V lang=de \
-    mydoc.md```
+    mydoc.md
+```
     
 ### Ohne Inhaltsverzeichnis
 
@@ -27,4 +28,5 @@
 -N \
     -o mydoc.pdf \
 -V lang=de \
-    mydoc.md```
+    mydoc.md
+ ```
