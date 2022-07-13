@@ -1,5 +1,6 @@
 # vorlagen
 ## Arbeitsblätter generieren
+Docker muss installiert sein und laufen.
 ### Mit Inhaltsverzeichnis
 
 ```docker run --rm \
