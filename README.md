@@ -3,7 +3,8 @@
 Docker muss installiert sein und laufen.
 ### Mit Inhaltsverzeichnis
 
-```docker run --rm \
+```
+docker run --rm \
     -v `pwd`:/data \
     -w /data \
     rstropek/pandoc-latex \
@@ -19,7 +20,8 @@ Docker muss installiert sein und laufen.
     
 ### Ohne Inhaltsverzeichnis
 
-```docker run --rm \
+```
+docker run --rm \
     -v `pwd`:/data \
     -w /data \
     rstropek/pandoc-latex \
